@@ -1,12 +1,18 @@
 # Heroku Buildpack: NGINX
 
-# Compiled with
+## Compiled with
 
 --with-http_stub_status_module 
+
 --with-http_gzip_static_module 
+
 --with-http_realip_module 
+
 --with-http_gunzip_module 
 
+## Based on
+
+https://github.com/ryandotsmith/nginx-buildpack
 
 ## License
 Copyright (c) 2013 Ryan R. Smith
